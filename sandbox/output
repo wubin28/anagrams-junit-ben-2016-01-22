@@ -1,11 +1,29 @@
-AnagramTest.java:9: error: cannot find symbol
+AnagramTest.java:9: error: non-static method of(String) cannot be referenced from a static context
         assertThat(Anagrams.of("a"), is(Arrays.asList("a")));
-                   ^
-  symbol:   variable Anagrams
-  location: class AnagramTest
+                           ^
 AnagramTest.java:9: error: cannot find symbol
         assertThat(Anagrams.of("a"), is(Arrays.asList("a")));
                                         ^
   symbol:   variable Arrays
   location: class AnagramTest
-2 errors
+AnagramTest.java:14: error: cannot find symbol
+        Anagram anagram = new Anagram();
+        ^
+  symbol:   class Anagram
+  location: class AnagramTest
+AnagramTest.java:14: error: cannot find symbol
+        Anagram anagram = new Anagram();
+                              ^
+  symbol:   class Anagram
+  location: class AnagramTest
+AnagramTest.java:24: error: cannot find symbol
+        Anagram anagram = new Anagram();
+        ^
+  symbol:   class Anagram
+  location: class AnagramTest
+AnagramTest.java:24: error: cannot find symbol
+        Anagram anagram = new Anagram();
+                              ^
+  symbol:   class Anagram
+  location: class AnagramTest
+6 errors

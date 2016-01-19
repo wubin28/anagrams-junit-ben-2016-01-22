@@ -1,9 +1,9 @@
 import java.util.List;
 import java.util.Arrays;
 
-public class Anagram {
+public class Anagrams {
 
-    public List<String> generate(String string) {
+    public List<String> of(String string) {
         if (string.length() == 3) {
             return Arrays.asList(
                 "a" + "bc",
