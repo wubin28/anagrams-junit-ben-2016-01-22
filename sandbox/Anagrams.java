@@ -8,10 +8,10 @@ public class Anagrams {
             return Arrays.asList(
                 s.substring(0, 1) + "bc",
                 s.substring(0, 1) + "cb",
-                s.substring(0, 1) + "ac",
-                s.substring(0, 1) + "ca",
-                s.substring(0, 1) + "ab",
-                s.substring(0, 1) + "ba"
+                s.substring(1, 2) + "ac",
+                s.substring(1, 2) + "ca",
+                s.substring(2, 3) + "ab",
+                s.substring(2, 3) + "ba"
             );
         }
         if (s.length() == 2) {
