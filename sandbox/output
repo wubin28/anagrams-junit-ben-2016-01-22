@@ -1,6 +1,6 @@
-AnagramTest.java:10: error: cannot find symbol
-        assertTrue(anagram.generate("a").contains("a"));
-                          ^
-  symbol:   method generate(String)
-  location: variable anagram of type Anagram
+Anagram.java:4: error: cannot find symbol
+    public List<String> generate(String string) {
+           ^
+  symbol:   class List
+  location: class Anagram
 1 error

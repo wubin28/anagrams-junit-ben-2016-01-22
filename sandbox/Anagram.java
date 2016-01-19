@@ -1,7 +1,7 @@
 
 public class Anagram {
 
-    public static int answer() {
-        return 6 * 7;
+    public List<String> generate(String string) {
+        return "a";
     }
 }
