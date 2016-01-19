@@ -3,6 +3,6 @@ import java.util.List;
 public class Anagram {
 
     public List<String> generate(String string) {
-        return "a";
+        return Arrays.asList("a");
     }
 }
