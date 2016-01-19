@@ -1,26 +1,21 @@
-AnagramTest.java:10: error: cannot find symbol
-        assertThat(Anagrams.of("a"), is(Arrays.asList("a")));
-                                     ^
-  symbol:   method is(List<String>)
-  location: class AnagramTest
-AnagramTest.java:15: error: cannot find symbol
+AnagramTest.java:16: error: cannot find symbol
         Anagram anagram = new Anagram();
         ^
   symbol:   class Anagram
   location: class AnagramTest
-AnagramTest.java:15: error: cannot find symbol
+AnagramTest.java:16: error: cannot find symbol
         Anagram anagram = new Anagram();
                               ^
   symbol:   class Anagram
   location: class AnagramTest
-AnagramTest.java:25: error: cannot find symbol
+AnagramTest.java:26: error: cannot find symbol
         Anagram anagram = new Anagram();
         ^
   symbol:   class Anagram
   location: class AnagramTest
-AnagramTest.java:25: error: cannot find symbol
+AnagramTest.java:26: error: cannot find symbol
         Anagram anagram = new Anagram();
                               ^
   symbol:   class Anagram
   location: class AnagramTest
-5 errors
+4 errors
