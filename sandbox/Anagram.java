@@ -11,7 +11,7 @@ public class Anagram {
                 "bac",
                 "bca",
                 "cab",
-                "cba",
+                "cba"
             );
         }
         if (string.length() == 2) {
