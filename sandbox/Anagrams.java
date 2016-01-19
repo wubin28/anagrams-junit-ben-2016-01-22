@@ -20,7 +20,7 @@ public class Anagrams {
         return Arrays.asList(s);
     }
 
-    private String dropChar(String s, int index) {
+    private static String dropChar(String s, int index) {
         return s.substring(0, index) + s.substring(index + 1, s.length());
     }
 }
