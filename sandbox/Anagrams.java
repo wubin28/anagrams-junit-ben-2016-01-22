@@ -15,7 +15,7 @@ public class Anagrams {
             );
         }
         if (string.length() == 2) {
-            return Arrays.asList(string, new StringBuilder(string).reverse().toString());
+            return Arrays.asList(string, string.substring(1, 1) + string.substring(0, 1));
         }
         return Arrays.asList(string);
     }
