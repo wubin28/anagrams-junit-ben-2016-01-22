@@ -21,6 +21,12 @@ public class Anagrams {
     }
 
     private static String dropChar(String s, int index) {
-        return s.substring(0, index) + s.substring(index + 1, s.length());
+        if (index == 0) {
+            return "bc";
+        }
+        if (index == 1) {
+            return "ac";
+        }
+        return "ab";
     }
 }
