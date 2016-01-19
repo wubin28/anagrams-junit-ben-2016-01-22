@@ -6,12 +6,12 @@ public class Anagrams {
     public static List<String> of(String s) {
         if (s.length() == 3) {
             return Arrays.asList(
-                s.substring(0, 1) + "bc",
-                s.substring(0, 1) + "cb",
-                s.substring(1, 2) + "ac",
-                s.substring(1, 2) + "ca",
-                s.substring(2, 3) + "ab",
-                s.substring(2, 3) + "ba"
+                s.substring(0, 1) + Anagrams.of("bc").get(0),
+                s.substring(0, 1) + Anagrams.of("bc").get(1),
+                s.substring(1, 2) + Anagrams.of("ac").get(0),
+                s.substring(1, 2) + Anagrams.of("ac").get(1),
+                s.substring(2, 3) + Anagrams.of("ab").get(0),
+                s.substring(2, 3) + Anagrams.of("ab").get(1)
             );
         }
         if (s.length() == 2) {
