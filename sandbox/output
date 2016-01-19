@@ -1,31 +1,19 @@
-Anagrams.java:9: error: cannot find symbol
+Anagrams.java:9: error: non-static method dropChar(String,int) cannot be referenced from a static context
                 s.substring(0, 1) + Anagrams.of(dropChar(s, 0)).get(0),
                                                 ^
-  symbol:   method dropChar(String,int)
-  location: class Anagrams
-Anagrams.java:10: error: cannot find symbol
+Anagrams.java:10: error: non-static method dropChar(String,int) cannot be referenced from a static context
                 s.substring(0, 1) + Anagrams.of(dropChar(s, 0)).get(1),
                                                 ^
-  symbol:   method dropChar(String,int)
-  location: class Anagrams
-Anagrams.java:11: error: cannot find symbol
+Anagrams.java:11: error: non-static method dropChar(String,int) cannot be referenced from a static context
                 s.substring(1, 2) + Anagrams.of(dropChar(s, 1)).get(0),
                                                 ^
-  symbol:   method dropChar(String,int)
-  location: class Anagrams
-Anagrams.java:12: error: cannot find symbol
+Anagrams.java:12: error: non-static method dropChar(String,int) cannot be referenced from a static context
                 s.substring(1, 2) + Anagrams.of(dropChar(s, 1)).get(1),
                                                 ^
-  symbol:   method dropChar(String,int)
-  location: class Anagrams
-Anagrams.java:13: error: cannot find symbol
+Anagrams.java:13: error: non-static method dropChar(String,int) cannot be referenced from a static context
                 s.substring(2, 3) + Anagrams.of(dropChar(s, 2)).get(0),
                                                 ^
-  symbol:   method dropChar(String,int)
-  location: class Anagrams
-Anagrams.java:14: error: cannot find symbol
+Anagrams.java:14: error: non-static method dropChar(String,int) cannot be referenced from a static context
                 s.substring(2, 3) + Anagrams.of(dropChar(s, 2)).get(1)
                                                 ^
-  symbol:   method dropChar(String,int)
-  location: class Anagrams
 6 errors
