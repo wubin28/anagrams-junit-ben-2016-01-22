@@ -1,16 +1,11 @@
-AnagramTest.java:10: error: cannot find symbol
-        List<String> result = anagram.generate("a");
-        ^
-  symbol:   class List
-  location: class AnagramTest
-AnagramTest.java:19: error: cannot find symbol
-        List<String> result = anagram.generate("ab");
-        ^
-  symbol:   class List
-  location: class AnagramTest
-AnagramTest.java:29: error: cannot find symbol
-        List<String> result = anagram.generate("abc");
-        ^
-  symbol:   class List
-  location: class AnagramTest
-3 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...E
+Time: 0.027
+There was 1 failure:
+1) the_number_of_the_anagrams_of_three_letter_word_should_be_6(AnagramTest)
+java.lang.AssertionError
+	at AnagramTest.the_number_of_the_anagrams_of_three_letter_word_should_be_6(AnagramTest.java:33)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+
