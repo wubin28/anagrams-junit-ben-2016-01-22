@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class Anagrams {
 
-    public List<String> of(String string) {
+    public static List<String> of(String string) {
         if (string.length() == 3) {
             return Arrays.asList(
                 "a" + "bc",
