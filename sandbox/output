@@ -1,4 +1,6 @@
-AnagramTest.java:21: error: ')' expected
-        assertThat(Anagrams.of("abc"), is(Arrays.asList("abc", "acb", "bac", "bca", "cab", "cba"));
-                                                                                                  ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...
+Time: 0.028
+
+OK (3 tests)
+

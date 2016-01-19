@@ -18,7 +18,7 @@ public class AnagramTest {
 
     @Test
     public void the_number_of_the_anagrams_of_three_letter_word_should_be_6() {
-        assertThat(Anagrams.of("abc"), is(Arrays.asList("abc", "acb", "bac", "bca", "cab", "cba"));
+        assertThat(Anagrams.of("abc"), is(Arrays.asList("abc", "acb", "bac", "bca", "cab", "cba")));
     }
 
     // TODO: the_number_of_the_anagrams_of_four_letter_word_should_be_24
