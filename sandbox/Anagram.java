@@ -6,12 +6,12 @@ public class Anagram {
     public List<String> generate(String string) {
         if (string.length() == 3) {
             return Arrays.asList(
-                "abc",
-                "acb",
-                "bac",
-                "bca",
-                "cab",
-                "cba"
+                "a" + "bc",
+                "a" + "cb",
+                "b" + "ac",
+                "b" + "ca",
+                "c" + "ab",
+                "c" + "ba"
             );
         }
         if (string.length() == 2) {
