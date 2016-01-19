@@ -14,8 +14,10 @@ public class Anagrams {
         List<String> anagrams = new ArrayList<String>();
 
         for (int i = 0; i < 3; i++) {
-            anagrams.add(s.substring(i, i + 1) + Anagrams.of(dropChar(s, i)).get(0));
-            anagrams.add(s.substring(i, i + 1) + Anagrams.of(dropChar(s, i)).get(1));
+            for (int j = 0; j < 2; j++) {
+                anagrams.add(s.substring(i, i + 1) + Anagrams.of(dropChar(s, i)).get(j));
+                anagrams.add(s.substring(i, i + 1) + Anagrams.of(dropChar(s, i)).get(j));
+            }
         } 
         return anagrams;
     }
