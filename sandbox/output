@@ -1,10 +1,16 @@
-AnagramTest.java:10: error: incompatible types: List<String> cannot be converted to String
-        String result = anagram.generate("a");
-                                        ^
-AnagramTest.java:19: error: incompatible types: List<String> cannot be converted to String
-        String result = anagram.generate("ab");
-                                        ^
-AnagramTest.java:29: error: incompatible types: List<String> cannot be converted to String
-        String result = anagram.generate("abc");
-                                        ^
+AnagramTest.java:10: error: cannot find symbol
+        List<String> result = anagram.generate("a");
+        ^
+  symbol:   class List
+  location: class AnagramTest
+AnagramTest.java:19: error: cannot find symbol
+        List<String> result = anagram.generate("ab");
+        ^
+  symbol:   class List
+  location: class AnagramTest
+AnagramTest.java:29: error: cannot find symbol
+        List<String> result = anagram.generate("abc");
+        ^
+  symbol:   class List
+  location: class AnagramTest
 3 errors

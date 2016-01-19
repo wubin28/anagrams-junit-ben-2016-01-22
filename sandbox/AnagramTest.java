@@ -7,7 +7,7 @@ public class AnagramTest {
     public void the_anagram_of_a_one_letter_word_should_be_itself() {
         Anagram anagram = new Anagram();
 
-        String result = anagram.generate("a");
+        List<String> result = anagram.generate("a");
 
         assertTrue(result.contains("a"));
     }
@@ -16,7 +16,7 @@ public class AnagramTest {
     public void the_number_of_the_anagrams_of_two_letter_word_should_be_2() {
         Anagram anagram = new Anagram();
 
-        String result = anagram.generate("ab");
+        List<String> result = anagram.generate("ab");
 
         assertTrue(result.contains("ab"));
         assertTrue(result.contains("ba"));
@@ -26,7 +26,7 @@ public class AnagramTest {
     public void the_number_of_the_anagrams_of_three_letter_word_should_be_6() {
         Anagram anagram = new Anagram();
 
-        String result = anagram.generate("abc");
+        List<String> result = anagram.generate("abc");
 
         assertTrue(result.contains("abc"));
         assertTrue(result.contains("acb"));
