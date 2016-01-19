@@ -1,11 +1,4 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-...E
-Time: 0.027
-There was 1 failure:
-1) the_number_of_the_anagrams_of_three_letter_word_should_be_6(AnagramTest)
-java.lang.AssertionError
-	at AnagramTest.the_number_of_the_anagrams_of_three_letter_word_should_be_6(AnagramTest.java:33)
-
-FAILURES!!!
-Tests run: 3,  Failures: 1
-
+Anagram.java:15: error: illegal start of expression
+            );
+            ^
+1 error
