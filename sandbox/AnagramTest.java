@@ -6,11 +6,7 @@ public class AnagramTest {
 
     @Test
     public void the_anagram_of_a_one_letter_word_should_be_itself() {
-        Anagram anagram = new Anagram();
-
-        List<String> result = anagram.generate("a");
-
-        assertTrue(result.contains("a"));
+        assertThat(Anagrams.of("a"), is(Arrays.asList("a")));
     }
 
     @Test
