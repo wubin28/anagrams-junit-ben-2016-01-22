@@ -22,11 +22,12 @@ public class Anagrams {
 
     private static String dropChar(String s, int index) {
         String before = s.substring(0, index);
+        String after = s.substring(index + 1, s.length());
         if (index == 0) {
-            return s.substring(index + 1, s.length());
+            return after;
         }
         if (index == 1) {
-            return before + s.substring(index + 1, s.length());
+            return before + after;
         }
         return before;
     }
