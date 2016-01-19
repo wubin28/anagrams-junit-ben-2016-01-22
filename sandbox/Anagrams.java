@@ -3,20 +3,20 @@ import java.util.Arrays;
 
 public class Anagrams {
 
-    public static List<String> of(String string) {
-        if (string.length() == 3) {
+    public static List<String> of(String s) {
+        if (s.length() == 3) {
             return Arrays.asList(
-                "a" + "bc",
-                "a" + "cb",
-                "b" + "ac",
-                "b" + "ca",
-                "c" + "ab",
-                "c" + "ba"
+                s.substring(0, 1) + "bc",
+                s.substring(0, 1) + "cb",
+                s.substring(0, 1) + "ac",
+                s.substring(0, 1) + "ca",
+                s.substring(0, 1) + "ab",
+                s.substring(0, 1) + "ba"
             );
         }
-        if (string.length() == 2) {
-            return Arrays.asList(string, string.substring(1, 2) + string.substring(0, 1));
+        if (s.length() == 2) {
+            return Arrays.asList(string, s.substring(1, 2) + s.substring(0, 1));
         }
-        return Arrays.asList(string);
+        return Arrays.asList(s);
     }
 }
