@@ -1,21 +1,4 @@
-AnagramTest.java:16: error: cannot find symbol
-        Anagram anagram = new Anagram();
-        ^
-  symbol:   class Anagram
-  location: class AnagramTest
-AnagramTest.java:16: error: cannot find symbol
-        Anagram anagram = new Anagram();
-                              ^
-  symbol:   class Anagram
-  location: class AnagramTest
-AnagramTest.java:26: error: cannot find symbol
-        Anagram anagram = new Anagram();
-        ^
-  symbol:   class Anagram
-  location: class AnagramTest
-AnagramTest.java:26: error: cannot find symbol
-        Anagram anagram = new Anagram();
-                              ^
-  symbol:   class Anagram
-  location: class AnagramTest
-4 errors
+AnagramTest.java:21: error: ')' expected
+        assertThat(Anagrams.of("abc"), is(Arrays.asList("abc", "acb", "bac", "bca", "cab", "cba"));
+                                                                                                  ^
+1 error
