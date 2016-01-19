@@ -1,13 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.E....
-Time: 0.039
-There was 1 failure:
-1) the_number_of_the_anagrams_of_four_letter_word_should_be_24(AnagramTest)
-java.lang.AssertionError: 
-Expected: is <24>
-     but: was <12>
-	at AnagramTest.the_number_of_the_anagrams_of_four_letter_word_should_be_24(AnagramTest.java:31)
+.....
+Time: 0.054
 
-FAILURES!!!
-Tests run: 5,  Failures: 1
+OK (5 tests)
 
