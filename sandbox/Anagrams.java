@@ -8,9 +8,6 @@ public class Anagrams {
         if (s.length() <= 1) {
             return Arrays.asList(s);
         }
-        if (s.length() == 2) {
-            return Arrays.asList(s, s.substring(1, 2) + s.substring(0, 1));
-        }
         List<String> anagrams = new ArrayList<String>();
 
         for (int i = 0; i < s.length(); i++) {
