@@ -8,8 +8,8 @@ public class Anagrams {
         if (s.length() <= 1) {
             return Arrays.asList(s);
         }
-        List<String> anagrams = new ArrayList<String>();
 
+        List<String> anagrams = new ArrayList<String>();
         for (int i = 0; i < s.length(); i++) {
             List<String> anagramsOfRest = Anagrams.of(dropChar(s, i));
             String droppedChar = s.substring(i, i + 1);

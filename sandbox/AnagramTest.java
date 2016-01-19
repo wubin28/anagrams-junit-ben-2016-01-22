@@ -30,4 +30,9 @@ public class AnagramTest {
     public void the_number_of_the_anagrams_of_four_letter_word_should_be_24() {
         assertThat(Anagrams.of("abcd").size(), is(24));
     }
+
+    @Test
+    public void the_number_of_the_anagrams_of_five_letter_word_should_be_120() {
+        assertThat(Anagrams.of("apple").size(), is(120));
+    }
 }
