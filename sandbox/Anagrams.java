@@ -13,7 +13,7 @@ public class Anagrams {
         }
         List<String> anagrams = new ArrayList<String>();
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < s.length(); i++) {
             for (int j = 0; j < 2; j++) {
                 anagrams.add(s.substring(i, i + 1) + Anagrams.of(dropChar(s, i)).get(j));
             }
