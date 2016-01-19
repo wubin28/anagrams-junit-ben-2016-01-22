@@ -4,6 +4,7 @@ import java.util.Arrays;
 public class Anagrams {
 
     public static List<String> of(String s) {
+        
         if (s.length() == 3) {
             return Arrays.asList(
                 s.substring(0, 1) + Anagrams.of(dropChar(s, 0)).get(0),

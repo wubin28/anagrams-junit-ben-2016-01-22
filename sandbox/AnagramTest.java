@@ -7,6 +7,11 @@ import static org.hamcrest.CoreMatchers.*;
 public class AnagramTest {
 
     @Test
+    public void the_anagram_of_an_empty_string_should_be_itself() {
+        assertThat(Anagrams.of(""), is(Arrays.asList("")));
+    }
+
+    @Test
     public void the_anagram_of_a_one_letter_word_should_be_itself() {
         assertThat(Anagrams.of("a"), is(Arrays.asList("a")));
     }
