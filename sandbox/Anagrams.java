@@ -22,7 +22,7 @@ public class Anagrams {
 
     private static String dropChar(String s, int index) {
         if (index == 0) {
-            return "bc";
+            return s.substring(1, 2);
         }
         if (index == 1) {
             return "ac";
