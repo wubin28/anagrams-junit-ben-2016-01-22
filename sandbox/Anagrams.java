@@ -16,7 +16,6 @@ public class Anagrams {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 2; j++) {
                 anagrams.add(s.substring(i, i + 1) + Anagrams.of(dropChar(s, i)).get(j));
-                anagrams.add(s.substring(i, i + 1) + Anagrams.of(dropChar(s, i)).get(j));
             }
         } 
         return anagrams;

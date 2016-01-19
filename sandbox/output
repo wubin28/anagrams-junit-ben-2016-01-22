@@ -1,13 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-..E..
-Time: 0.035
-There was 1 failure:
-1) the_number_of_the_anagrams_of_three_letter_word_should_be_6(AnagramTest)
-java.lang.AssertionError: 
-Expected: is <[abc, acb, bac, bca, cab, cba]>
-     but: was <[abc, abc, acb, acb, bac, bac, bca, bca, cab, cab, cba, cba]>
-	at AnagramTest.the_number_of_the_anagrams_of_three_letter_word_should_be_6(AnagramTest.java:26)
+....
+Time: 0.036
 
-FAILURES!!!
-Tests run: 4,  Failures: 1
+OK (4 tests)
 
