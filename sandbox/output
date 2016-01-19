@@ -1,6 +1,13 @@
-Anagrams.java:18: error: cannot find symbol
-            return Arrays.asList(string, s.substring(1, 2) + s.substring(0, 1));
-                                 ^
-  symbol:   variable string
-  location: class Anagrams
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...E
+Time: 0.031
+There was 1 failure:
+1) the_number_of_the_anagrams_of_three_letter_word_should_be_6(AnagramTest)
+java.lang.AssertionError: 
+Expected: is <[abc, acb, bac, bca, cab, cba]>
+     but: was <[abc, acb, aac, aca, aab, aba]>
+	at AnagramTest.the_number_of_the_anagrams_of_three_letter_word_should_be_6(AnagramTest.java:21)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+
